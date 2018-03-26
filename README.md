@@ -20,7 +20,7 @@ Once you have coded your masterpiece, you can start to test your solutions.
 You may either use our test tool to check all files
 ```sh
 # run the test runner
-./tester
+# ./tester
 ```
 ![output-tester](https://github.com/nan-academy/js-training/blob/master/img/output-tester.png)
 
@@ -32,7 +32,7 @@ Or you can run only a some tests with
 Or you can test files one by one with node
 ```sh
 # open a file in node
-node exercises/primitives
+# node exercises/primitives
 ```
 ![output-node](https://github.com/nan-academy/js-training/blob/master/img/output-node.png)
 
