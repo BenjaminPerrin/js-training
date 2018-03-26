@@ -14,15 +14,6 @@ cd js-training
 
 ```
 
-## Testing
-Once you have coded your masterpiece, you can start to test your solutions.
-
-You may either use our test tool to check all files
-```sh
-# run the test runner
-# ./tester
-```
-![output-tester](https://github.com/nan-academy/js-training/blob/master/img/output-tester.png)
 
 Or you can run only a some tests with
 ```sh
