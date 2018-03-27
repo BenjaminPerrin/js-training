@@ -9,9 +9,28 @@
  * @notions Primitive and Operators, Functions, Recursion
  */
 
-// Your code :
+// bour code :
+function multiply(a, b) {
+    var result = (a < 0) ? (b > 0) ? -1 : 1 : (b < 0) ? -1 : 1;
 
-//* Begin of tests
+    a = (a < 0) ? -a : a;
+    b = (b < 0) ? -b : b;
+
+    function mult(a, b) {
+        if (b === 0) {
+            return 0
+        };
+        return a + mult(a, b - 1);
+    }
+
+    if (result === 1) {
+        return mult(a, b)
+    } else {
+        return -mult(a, b)
+    };
+}
+
+
 const assert = require('assert')
 
 assert.strictEqual(typeof multiply, 'function')
