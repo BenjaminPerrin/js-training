@@ -7,9 +7,12 @@
  *
  */
 
-
+function whisper(str) {
+    str = "*" + str.toLowerCase() + "*";
+    return str;
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(whisper('QWERTY'), '*qwerty*')
 // End of tests */
